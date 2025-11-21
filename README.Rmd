@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/laurenmaurer4/Homework6_Rpackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/laurenmaurer4/Homework6_Rpackage/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of sparsenumeric is to provide a simple implementation of sparse vectors in R. Most of the entries in a sparse vector are zero. This package only stores non-zero vector and can preform arithmetic on the vectors. 
+The goal of sparsenumeric is to provide a simple implementation of sparse vectors in R. Most of the entries in a sparse vector are zero. This package only stores the non-zero elements of a vector and can perform arithmetic on the vectors. 
 
 ## Installation
 
@@ -27,6 +27,6 @@ You can install the development version of sparsenumeric like so:
 
 ``` r
 # install.packages("pak")
-pak::pak("laurenmaurer4/Homework6_Rpackage")
+pak::pak("laurenmaurer4/sparsenumeric")
 ```
 
