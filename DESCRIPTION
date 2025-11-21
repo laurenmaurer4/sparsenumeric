@@ -1,0 +1,17 @@
+Package: sparsenumeric
+Title: Simple sparse numeric vector class
+Version: 0.1.0
+Authors@R: 
+    person("Lauren", "Maurer", , "laurenmaurer4@gmail.com", role = c("aut", "cre"))
+Description: Implements an S4 class for sparse vectors with methods for arithmetic, crossproduct, mean, norm, and standardization. This includes summary and plotting. The package handles mostly-zero vectors. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+  methods
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+
+
