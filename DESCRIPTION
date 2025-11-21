@@ -2,7 +2,7 @@ Package: sparsenumeric
 Title: Simple sparse numeric vector class
 Version: 0.1.0
 Authors@R: 
-    person("Lauren", "Maurer", , "laurenmaurer4@gmail.com", role = c("aut", "cre"))
+    person(given = "Lauren", family = "Maurer", email = "laurenmaurer4@gmail.com", role = c("aut", "cre"))
 Description: Implements an S4 class for sparse vectors with methods for arithmetic, crossproduct, mean, norm, and standardization. This includes summary and plotting. The package handles mostly-zero vectors. 
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -15,3 +15,4 @@ Suggests:
 Config/testthat/edition: 3
 URL: https://github.com/laurenmaurer4/sparsenumeric
 BugReports: https://github.com/laurenmaurer4/sparsenumeric/issues
+
